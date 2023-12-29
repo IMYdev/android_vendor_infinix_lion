@@ -1574,8 +1574,8 @@ PRODUCT_PACKAGES += \
     TetheringResOverlay \
     gift-core \
     libfmjni \
-    libalsautils \
-    libwifi-hal \
+    libalsautils-v30 \
+    libwifi-hal-mtk \
     ImsService \
     mediatek-common \
     mediatek-framework \

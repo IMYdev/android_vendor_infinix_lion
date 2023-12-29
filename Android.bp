@@ -221,14 +221,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libalsautils",
+	name: "libalsautils-v30",
 	owner: "infinix",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/vendor/lib/libalsautils.so"],
+			srcs: ["proprietary/vendor/lib/libalsautils-v30.so"],
 		},
 	},
 	compile_multilib: "32",
@@ -238,14 +238,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libwifi-hal",
+	name: "libwifi-hal-mtk",
 	owner: "infinix",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libwifi-hal.so"],
+			srcs: ["proprietary/vendor/lib64/libwifi-hal-mtk.so"],
 		},
 	},
 	compile_multilib: "64",
