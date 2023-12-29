@@ -1573,14 +1573,26 @@ PRODUCT_PACKAGES += \
     NetworkStackResOverlay \
     TetheringResOverlay \
     gift-core \
+    libfmjni \
+    libalsautils \
+    libwifi-hal \
+    ImsService \
+    mediatek-common \
+    mediatek-framework \
+    mediatek-ims-base \
+    mediatek-ims-common \
+    mediatek-ims-extension-plugin \
+    mediatek-ims-legacy \
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common \
     android.hardware.biometrics.fingerprint@2.1-service \
     android.hardware.health@2.1 \
     android.hardware.wifi.hostapd \
-    android.hardware.wifi@1.0-service \
-    lights-mtk-default \
     manifest_android.hardware.drm@1.3-service.clearkey \
     manifest_android.hardware.drm@1.3-service.widevine \
     vendor.mediatek.hardware.dplanner@2.0-service \
+    vendor.mediatek.hardware.gpu@1.0-service \
     vendor.mediatek.hardware.paytrigger@1.0-service \
     vendor.mediatek.hardware.tranHwInfo@1.0 \
     vibrator-mtk-default
